@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* ******************************************************
+
+	@ 레이아웃 및 공통요소
+
+*******************************************************/
+
+
+
+/* ******************************************************
+	00. common
+*******************************************************/
+html{height:100%;}
+body, input, textarea, select, button, label, a {height:100%;font-family:Noto Sans CJK KR, 'Noto Sans', sans-serif;font-weight:300;color:#2E364F;font-size:16px;letter-spacing:-0.1px;}
+body::-webkit-scrollbar{display:none;}
+button{cursor:pointer;}
+
+select{-webkit-appearance: none;-moz-appearance: none;appearance:none;background:url(../../images/i-arrow-bt.png) no-repeat 90% 50%;border:1px solid #C7D3DD; border-radius:3px; padding:10px;font-size:17px;}
+
+.center{text-align:center;}
+.txt_right{text-align:right;}
+
+.bold{font-weight:bold;}
+.red{color:#E94567;}
+
+.show{display:block;}
+
+.price{font-family:Roboto, 'Roboto', Noto Sans CJK KR, 'Noto Sans', sans-serif;box-sizing:border-box;}
+
+
+
+/* ******************************************************
+	01. layout
+*******************************************************/
+.wrap{position:relative;}

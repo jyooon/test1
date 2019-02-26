@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <title>List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../common/css/base.css" media="all">
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="../common/js/script.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div class="wrap">
+
+    <!-- page 시작 -->
+    <div class="page main list">
+        <div class="header">
+            <div class="nav">
+                <div class="logo">
+                    <span>
+                        <img src="../images/logo.png">
+                    </span>
+                </div>
+                <div class="icon i-search">
+                    <img src="../images/i-search.png">
+                </div>
+                <div class="icon i-map">
+                    <img src="../images/i-map.png">
+                </div>
+                <div class="icon i-list">
+                    <img src="../images/i-list.png">
+                </div>
+            </div>
+            <div class="filter">
+                <div class="filter_list">
+                    <ul>
+                        <li class="list_item">
+                            <a href="#">정렬</a>
+                        </li>
+                        <li class="list_item">
+                            <a href="#layerPopup" class="btn_layerpopup">물건종류</a>
+                        </li>
+                        <li class="list_item">
+                            <a href="#">지역</a>
+                        </li>
+                        <li class="list_item">
+                            <a href="#">물건현황</a>
+                        </li>
+                       <li class="list_item">
+                            <a href="#">필터 추가하기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="product_list_wrap">
+                <ul>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>아파트</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>1,367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span>1,257,544,000</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>상가</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span class="d-rate">(39%)</span> <span>257,544,000</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>아파트</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>1,367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span>1,257,544,000</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>상가</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>1,367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span>1,257,544,000</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>연립주택</span><span>다세대</span><span>빌라</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>1,367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span>1,257,544,000</span></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <img src="../images/thumb01.png">
+                            <span class="dday-bx">
+                                <em>매각공고</em>
+                            </span>
+                        </div>
+                        <div class="category">
+                            <span>상가</span><span>오피스텔</span><span>근린시설</span>
+                        </div>
+                        <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                        <div class="price_section price_appraise">
+                            <div class="badge">감정</div>
+                            <div class="price"><span>1,367,920,000</span></div>
+                        </div>
+                        <div class="price_section price_lowest">
+                            <div class="badge">최저</div>
+                            <div class="price"><span>1,257,544,000</span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- // page 끝 -->
+
+    <!-- 필터 - 물건종류 layer popup 시작 -->
+    <div class="layer-popup product_type">
+        <div class="popup_header">
+            <span class="icon i-back">
+                <img src="../images/i-back.png">
+            </span>
+            <span>물건종류</span>
+            <a class="save">저장</a>
+        </div>
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                    <div class="section">
+                        <div class="btn_wrap">
+                            <p class="check">
+                                <input type="checkbox" id="c011"> <label for="c011"><span></span>전체선택</label>
+                            </p>
+                            <button class="btn btn-sm blue">초기화</button>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>주거용</h3>
+                            <p class="check">
+                                <input type="checkbox" id="a012" checked="checked"> <label for="a012"><span></span>주거용 전체선택</label>
+                            </p>
+                            <div class="col_multy_check">
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c013" name="live"> <label for="c013"><span></span>아파트</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c014" name="live"> <label for="c014"><span></span>주택</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c015" name="live"> <label for="c015"><span></span>다가구(원룸 등)</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c016" name="live"> <label for="c016"><span></span>다세대(빌라)</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c017" name="live"> <label for="c017"><span></span>근린주택</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>상업용 및 업무용</h3>
+                            <p class="check">
+                                <input type="checkbox" id="a013" checked="checked"> <label for="a013"><span></span>상업용 및 업무용 전체선택</label>
+                            </p>
+                            <div class="col_multy_check">
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c018"> <label for="c018"><span></span>근린상가</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c019"> <label for="c019"><span></span>근린시설</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c020"> <label for="c020"><span></span>오피스텔</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c021"> <label for="c021"><span></span>사무실</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c022"> <label for="c022"><span></span>공장</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c023"> <label for="c023"><span></span>오피스텔 공장</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c024"> <label for="c024"><span></span>근린상가</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c025"> <label for="c025"><span></span>근린시설</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c026"> <label for="c026"><span></span>오피스텔</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c027"> <label for="c027"><span></span>사무실</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c028"> <label for="c028"><span></span>공장</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c029"> <label for="c029"><span></span>오피스텔 공장</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c030"> <label for="c030"><span></span>오피스텔</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c021"> <label for="c021"><span></span>사무실</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c031"> <label for="c031"><span></span>공장</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c032"> <label for="c032"><span></span>오피스텔 공장</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>토지</h3>
+                            <p class="check">
+                                <input type="checkbox" id="a014" checked="checked"> <label for="a014"><span></span>토지 전체선택</label>
+                            </p>
+                            <div class="col_multy_check">
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c033"> <label for="c033"><span></span>아파트</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c034"> <label for="c034"><span></span>주택</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c035"> <label for="c035"><span></span>다가구(원룸 등)</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c036"> <label for="c036"><span></span>다세대(빌라)</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c037"> <label for="c037"><span></span>근린주택</label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 필터 layer popup 끝 -->
+
+    <!-- 필터 - 필터 추가하기 layer popup 시작 -->
+    <div class="layer-popup add_filter">
+        <div class="popup_header">
+            <span class="icon i-back">
+                <img src="../images/i-back.png">
+            </span>
+            <span>필터 추가하기</span>
+            <a class="save">저장</a>
+        </div>
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>대지면적</h3>
+                            <div class="input_content">
+                                <input type="text">㎡ ~ <input type="text">㎡
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>건물면적</h3>
+                            <div class="input_content">
+                                <input type="text">㎡ ~ <input type="text">㎡
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>지번 범위</h3>
+                            <div class="input_content">
+                                <select>
+                                    <option>전체</option>
+                                </select>
+                                <input type="text"> ~ <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="form_wrap">
+                            <h3>특수물건</h3>
+                            <p class="check">
+                                <input type="checkbox" id="a016" checked="checked"> <label for="a016"><span></span>특수물건 전체선택</label>
+                            </p>
+                            <div class="col_multy_check">
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c038" name="p01"> <label for="c038"><span></span>오늘 공고된 신건</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c039" name="p01"> <label for="c039"><span></span>재매각 물건</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c040" name="p01"> <label for="c040"><span></span>반값 경매 물건</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c041" name="p01"> <label for="c041"><span></span>감정일에서 1년이 지난 물건</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c042" name="p01"> <label for="c042"><span></span>위반 건축물</label>
+                                    </p>
+                                </div>
+                                <div class="chk_list">
+                                    <p class="check">
+                                        <input type="checkbox" id="c043"> <label for="c043"><span></span>전세권/임차권 설정</label>
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="btn btn-sm btn-full line blue">특수물건 더보기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 필터 layer popup 끝 -->
+
+    <!-- 지도보기 layer popup 시작 -->
+    <div class="layer-popup map_locate">
+        <a class="close">
+            <img src="../images/i-close-w.png">
+        </a>
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                    <div class="map-section">
+                      <div class="list-marker">
+                        <div class="kind"><span>아파트</span></div>
+                        <div class="price-info">
+                          <div class="lowest">최저</div>
+                          <div class="price">2억 5천</div>
+                        </div>
+                      </div>
+                      <div class="list-marker2">
+                        <div class="number">37</div>
+                      </div>
+                    </div>
+                    <div class="map-list">
+                        <div class="touch-section">
+                          <div class="touch-icon">
+                            <img src="../images/touch.png">
+                          </div>
+                          <div class="product_list_wrap">
+                              <ul>
+                                <li class="active">
+                                    <div class="thumb">
+                                        <img src="../images/thumb01.png">
+                                        <span class="dday-bx">
+                                            <em>매각공고</em>
+                                        </span>
+                                    </div>
+                                    <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                                    <div class="price_section price_appraise">
+                                        <div class="badge">감정</div>
+                                        <div class="price"><span>1,367,920,000</span></div>
+                                    </div>
+                                    <div class="price_section price_lowest">
+                                        <div class="badge">최저</div>
+                                        <div class="price"><span class="d-rate">(36%)</span><span>1,257,544,000</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumb">
+                                        <img src="../images/thumb01.png">
+                                        <span class="dday-bx">
+                                            <em>매각공고</em>
+                                        </span>
+                                    </div>
+                                    <div class="address">경기도 수원시 장안구 조원동 881, 수원한일타운 142동 8층</div>
+                                    <div class="price_section price_appraise">
+                                        <div class="badge">감정</div>
+                                        <div class="price"><span>1,367,920,000</span></div>
+                                    </div>
+                                    <div class="price_section price_lowest">
+                                        <div class="badge">최저</div>
+                                        <div class="price"><span>1,257,544,000</span></div>
+                                    </div>
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 지도보기 layer popup 끝 -->
+
+    <!-- 우측 메뉴 layer popup 시작 -->
+    <div class="layer-popup right-menu">
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                    <div class="profile">
+                      <div class="pf-thumb">
+                        <img src="../images/default-pf.png">
+                      </div>
+                      <div class="login">로그인 해주세요</div>
+                      <div class="signin">혹은 <span>회원가입</span> 하기</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 아파트 정보 보기 맵 layer popup 끝 -->
+
+    <!-- 검색 layer popup 시작 -->
+    <div class="layer-popup search-section">
+        <a class="close blue">
+            <img src="../images/i-close-w.png">
+        </a>
+        <div class="layer-containers">
+            <div class="inner">
+                <div class="box">
+                  <div class="search">
+                    <input type="text" placeholder="검색어를 입력해 주세요.">
+                    <img src="../images/i-search-g.png">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 지도보기 layer popup 끝 -->
+
+</div>
+<!-- // wrap -->
+
+</body>
+</html>
